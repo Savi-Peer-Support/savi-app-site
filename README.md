@@ -1,6 +1,6 @@
 # Savi hosting site
 
-**Live at `https://moonie556.github.io/savi-app-site/`** — deployed 2026-08-25 to the public repo `https://github.com/moonie556/savi-app-site` via GitHub Pages, all four routes verified with a real HTTP 200 check. This directory is that repo's source; pushing to its `main` branch redeploys the site automatically.
+**Live at `https://savi-peer-support.github.io/savi-app-site/`** — deployed 2026-08-25 to the public repo `https://github.com/Savi-Peer-Support/savi-app-site` via GitHub Pages, all four routes verified with a real HTTP 200 check. This directory is that repo's source; pushing to its `main` branch redeploys the site automatically.
 
 Four static pages, no build step, no dependencies beyond Google Fonts (loaded via `<link>`, same as the rest of the app's docs):
 
@@ -15,7 +15,7 @@ Content is copied faithfully from `../Privacy Policy.dc.html` and `../Terms of S
 
 ## Redeploying after an edit
 
-This folder is a git repo (`origin` → `github.com/moonie556/savi-app-site`). Commit and push to `main`; GitHub Pages rebuilds automatically within a minute or two:
+This folder is a git repo (`origin` → `github.com/Savi-Peer-Support/savi-app-site`). Commit and push to `main`; GitHub Pages rebuilds automatically within a minute or two:
 
 ```
 git add -A && git commit -m "update copy" && git push
@@ -23,10 +23,10 @@ git add -A && git commit -m "update copy" && git push
 
 ## Live URLs
 
-- `https://moonie556.github.io/savi-app-site/` → **Marketing URL**
-- `https://moonie556.github.io/savi-app-site/privacy-policy.html` → **Privacy Policy URL**
-- `https://moonie556.github.io/savi-app-site/support.html` → **Support URL**
-- `https://moonie556.github.io/savi-app-site/terms-of-service.html` (linked from both legal pages, not its own required ASC field)
+- `https://savi-peer-support.github.io/savi-app-site/` → **Marketing URL**
+- `https://savi-peer-support.github.io/savi-app-site/privacy-policy.html` → **Privacy Policy URL**
+- `https://savi-peer-support.github.io/savi-app-site/support.html` → **Support URL**
+- `https://savi-peer-support.github.io/savi-app-site/terms-of-service.html` (linked from both legal pages, not its own required ASC field)
 
 ## Alternative hosts (not used, kept for reference)
 
