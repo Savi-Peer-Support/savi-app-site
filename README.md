@@ -1,6 +1,8 @@
 # Savi hosting site
 
-**Live at `https://savi-peer-support.github.io/savi-app-site/`** — deployed 2026-08-25 to the public repo `https://github.com/Savi-Peer-Support/savi-app-site` via GitHub Pages, all four routes verified with a real HTTP 200 check. This directory is that repo's source; pushing to its `main` branch redeploys the site automatically.
+**Live at `https://savipeersupport.org/`** — deployed 2026-08-25 to the public repo `https://github.com/Savi-Peer-Support/savi-app-site` via GitHub Pages, all four routes verified with a real HTTP 200 check. This directory is that repo's source; pushing to its `main` branch redeploys the site automatically.
+
+**Custom domain added 2026-08-27**: the user registered `savipeersupport.org` and it's now the live custom domain on this Pages site (was `savi-peer-support.github.io/savi-app-site/` before). DNS is 4 A records (`185.199.108/109/110/111.153`) at the registrar, plus a `CNAME` file in this repo. HTTPS cert issuance got stuck for ~2 hours with `https_enforced: false` despite DNS being fully correct — fixed by removing and recreating the GitHub Pages site entirely (`DELETE`/`POST` on the `/pages` API, not just clearing the custom domain field — a `DELETE` on that endpoint removes the whole Pages configuration, worth remembering if this ever needs troubleshooting again), which picked the domain back up automatically from the committed `CNAME` file and issued a working cert on the fresh attempt.
 
 Four static pages, no build step, no dependencies beyond Google Fonts (loaded via `<link>`, same as the rest of the app's docs):
 
@@ -23,10 +25,10 @@ git add -A && git commit -m "update copy" && git push
 
 ## Live URLs
 
-- `https://savi-peer-support.github.io/savi-app-site/` → **Marketing URL**
-- `https://savi-peer-support.github.io/savi-app-site/privacy-policy.html` → **Privacy Policy URL**
-- `https://savi-peer-support.github.io/savi-app-site/support.html` → **Support URL**
-- `https://savi-peer-support.github.io/savi-app-site/terms-of-service.html` (linked from both legal pages, not its own required ASC field)
+- `https://savipeersupport.org/` → **Marketing URL**
+- `https://savipeersupport.org/privacy-policy.html` → **Privacy Policy URL**
+- `https://savipeersupport.org/support.html` → **Support URL**
+- `https://savipeersupport.org/terms-of-service.html` (linked from both legal pages, not its own required ASC field)
 
 ## Alternative hosts (not used, kept for reference)
 
