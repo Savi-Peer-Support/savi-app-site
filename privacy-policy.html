@@ -41,77 +41,103 @@
 
   <div class="kicker">Solace Labs LLC</div>
   <h1>Privacy Policy</h1>
-  <div class="meta">Effective date: July 19, 2026 · Last updated: July 19, 2026 · Version 1.0</div>
+  <div class="meta">Effective date: October 5, 2026 · Last updated: October 5, 2026 · Version 1.1</div>
 
   <div class="callout">
     <div class="label">In plain words</div>
-    <p>Savi is a place to be heard, anonymously. We collect as little as possible, your conversations are private and are not sold or used to train AI, and any closing note you write goes only to the person you were paired with. This page explains exactly what we do and don't do with your information — and the choices you have.</p>
+    <p>Savi is a place to be heard, anonymously. You don&rsquo;t give us your name, email or phone number. Your one-to-one chat messages are deleted from our servers when the chat ends. A few things are kept so the app works &mdash; like a closing note you send, your Circle posts, and your profile nickname &mdash; and you can delete all of it, instantly, from inside the app. If you choose to use the AI companion, what you type to it is sent to OpenAI to write a reply. We show no ads, we don&rsquo;t track you, and we never sell your data.</p>
   </div>
 
   <p>This Privacy Policy describes how Solace Labs LLC (&ldquo;Savi,&rdquo; &ldquo;we,&rdquo; &ldquo;us&rdquo;) collects, uses, and protects your information when you use the Savi mobile application and related services (the &ldquo;Service&rdquo;). By using Savi, you agree to the practices described here. If you do not agree, please do not use the Service.</p>
 
   <h2>1. Our privacy principles</h2>
   <ul>
-    <li><strong>Anonymous by design.</strong> Savi does not require your legal name, and we do not show your identity to the people you talk with.</li>
+    <li><strong>Anonymous by design.</strong> Savi does not ask for your name, email address, or phone number, and we do not show your identity to the people you talk with.</li>
     <li><strong>Minimal collection.</strong> We ask for only what the Service needs to work.</li>
-    <li><strong>Never for sale.</strong> We do not sell your personal information or share it for cross-context behavioral advertising.</li>
-    <li><strong>Conversations stay yours.</strong> Peer conversations are not human-reviewed for marketing, and are not used to train AI models.</li>
+    <li><strong>Never for sale.</strong> We do not sell your personal information, show ads, or use third-party advertising or tracking tools.</li>
+    <li><strong>Chats don&rsquo;t linger.</strong> One-to-one chat messages are deleted from our servers when the conversation ends, and we do not use your conversations to train AI models.</li>
   </ul>
 
   <h2>2. Information we collect</h2>
-  <p><strong>Account &amp; access.</strong> To create and secure your account we collect an authentication identifier (for example, a sign-in token from your device or email) and, where you set them, security settings such as app-lock and quick-exit preferences.</p>
-  <p><strong>Profile &amp; role.</strong> Your role (&ldquo;Chatter&rdquo; or &ldquo;Listener&rdquo;), your responses to the onboarding and deeper-room qualification quizzes (used to match you to spaces), and personalization choices (avatar, plant, pot, font, home scene).</p>
-  <p><strong>Subscription status.</strong> Whether you have Savi Plus and your founding-member status. Payments are processed by Apple; we receive confirmation of your subscription but not your full payment-card details.</p>
-  <p><strong>Conversation content.</strong> Messages you exchange during a session, and any closing note you write to the person you were matched with. See Section 3 for how these are handled.</p>
-  <p><strong>Optional contact details.</strong> If you refer a friend, the phone number or contact you choose to invite. We use it only to send that invitation.</p>
-  <p><strong>Device &amp; technical data.</strong> Basic technical information needed to run and protect the Service — app version, device type and operating system, general region/locale (used to show the right crisis lines and billing currency), and diagnostic logs. We do not use third-party advertising trackers.</p>
+  <p><strong>Anonymous account.</strong> When you first open Savi, we create an anonymous account for you (using our hosting provider Supabase&rsquo;s anonymous sign-in). This gives you a random account ID that stays on your device; it is not linked to your name, email, or phone number. Everything below is tied to that random ID.</p>
+  <p><strong>Age check.</strong> Savi is for adults 18 and older. When you enter your date of birth, it is checked <strong>on your device only</strong>. We never store or send your date of birth &mdash; the app keeps only a simple &ldquo;18+ verified&rdquo; (or &ldquo;not eligible&rdquo;) flag on your device.</p>
+  <p><strong>Profile.</strong> The nickname, emoji avatar, and optional short bio (such as a quote, a piece of advice, or a few favorite things) that you choose to add. These are shown only to the person you are currently matched with, and only while that chat is active. Your region (used to show the right crisis lines and prices) is saved on your device only.</p>
+  <p><strong>Matching and sessions.</strong> When you look for a chat, we store your role (&ldquo;Chatter&rdquo; or &ldquo;Listener&rdquo;), the space you chose, and, if you turn it on, a &ldquo;notify me&rdquo; flag so we can let you know when someone is free. When you are matched, we keep a record of the session itself (the two anonymous account IDs, the space, and start and end times) &mdash; but not the messages (see Section 3).</p>
+  <p><strong>Listener status.</strong> If you take the listener readiness check, we grade it on our server and store only whether you are approved to listen &mdash; not your individual answers.</p>
+  <p><strong>Things you create or do in the app.</strong> We store:</p>
+  <ul>
+    <li><strong>Closing notes</strong> you send after a chat (who sent it, who it&rsquo;s for, and the text).</li>
+    <li><strong>Circle (&ldquo;The Shore&rdquo;) posts</strong> you write, which can be read by approved listeners, along with &ldquo;holds&rdquo; (when you hold someone&rsquo;s post) and posts you choose to hide.</li>
+    <li><strong>Ratings</strong> (1&ndash;5 stars) you give or receive after a chat. Individual ratings are not shown to anyone; only an average and count are displayed.</li>
+    <li><strong>Reports</strong> you submit: who reported, who was reported, the optional reason you give, and &mdash; if you report an AI companion reply &mdash; the text of that reply.</li>
+    <li><strong>Blocks</strong> you set and <strong>saved listeners</strong> you choose to keep.</li>
+    <li><strong>Credits and plant progress</strong> (in-app credits are stored on our servers; some plant choices are stored only on your device).</li>
+  </ul>
+  <p><strong>Subscription status.</strong> Whether you have Savi Plus. Purchases are made through Apple; we never receive your payment-card details (see Section 7).</p>
+  <p><strong>Push notifications.</strong> If you allow notifications, we store your device&rsquo;s push token so we can tell you, for example, that a listener is free or that a note has arrived. Notifications do not include the contents of your notes or messages. You can turn notifications off at any time in your device&rsquo;s Settings.</p>
+  <p><strong>Abuse prevention.</strong> We keep short-lived records of certain actions (such as how often reports or posts are made) to limit spam and abuse.</p>
+  <p><strong>On your device only.</strong> Some preferences never leave your device, including your age-check result, whether you have agreed to use the AI companion, and certain display choices.</p>
+  <p>We do not collect your contacts, location, photos, or advertising identifier.</p>
 
   <h2>3. Your conversations and notes</h2>
-  <p>Peer conversations are intended to be ephemeral. Messages are protected in transit and are not visible to other members outside your one-to-one conversation. If you write a closing note at the end of a conversation, it is <strong>delivered to the person you were matched with</strong> so they can read — and reply to — it after the session ends; we store it to make that delivery possible, and it is not deleted automatically. If there is no one to deliver it to, the note stays on your device only and is never sent to us.</p>
-  <p>We do not read your conversations for advertising, and we do not use conversation content to train artificial-intelligence models. Limited, access-controlled review may occur only where necessary to keep people safe (see Section 4), to investigate a report of abuse, or where required by law.</p>
+  <p><strong>One-to-one chat messages</strong> are stored on our servers only while the chat is active, so they can be delivered. They are <strong>automatically deleted when the chat ends</strong>, and chats that are left open and abandoned are ended automatically after about an hour, which deletes their messages too. Messages are encrypted in transit between your device and our servers, but they are <strong>not end-to-end encrypted</strong>: while a chat is active, the text exists on our servers.</p>
+  <p>To keep people safe, our servers automatically check message text as it is sent for crisis-related phrases (see Section 4) and for a list of objectionable words; messages containing objectionable words are blocked. This is automated &mdash; no one reads your chats for advertising or any other purpose.</p>
+  <p><strong>Closing notes</strong> are different: if you write a note at the end of a conversation, it is delivered to the person you were matched with so they can read it after the chat ends. Notes are kept until either of you deletes your account. The push notification for a note says only that a note arrived &mdash; not what it says.</p>
+  <p>We do not use your conversations or notes to train artificial-intelligence models.</p>
 
   <h2>4. Safety and crisis support</h2>
-  <p>Savi is peer support — it is <strong>not</strong> a crisis service, a medical or mental-health provider, or a substitute for professional or emergency care. To help keep members safe, Savi may detect certain safety-related keywords in your messages <strong>on our servers</strong>, as part of delivering the message, in order to surface relevant crisis resources (such as a local helpline). This detection is not stored as a profile of you.</p>
-  <p>If we believe there is a serious risk of harm to you or someone else, we may act on the information available to us — including surfacing crisis resources, limiting an account, or, where legally permitted and appropriate, contacting emergency services. Crisis resources shown in the app are provided by third parties; please verify current local emergency numbers.</p>
+  <p>Savi is peer support &mdash; it is <strong>not</strong> a crisis service, a medical or mental-health provider, or a substitute for professional or emergency care. Our servers automatically check messages for certain crisis-related phrases so the app can show crisis resources (such as a local helpline) to both people in the chat. This check marks the message itself; the mark is deleted along with the message when the chat ends, and it is not stored as a profile of you.</p>
+  <p>When you submit a report, it is stored and an alert email containing the report details (the anonymous account IDs involved, the reason given, and, for a reported AI reply, the reply text) is sent to our moderation inbox so we can review it promptly. We may remove content or restrict an account that breaks our community guidelines. Where legally required, or where we believe it is necessary to protect someone from serious harm, we may share the limited information we hold with the appropriate authorities. Crisis resources shown in the app are provided by third parties; please verify current local emergency numbers.</p>
 
   <h2>5. The AI companion</h2>
-  <p>When no human listener is available, Savi may offer an optional AI companion, clearly labeled as AI. To generate a response, the text you type to the AI companion (and the earlier messages in that same AI conversation) is sent from our servers to <strong>OpenAI</strong>, a third-party AI provider. We ask for your permission in the app before anything is sent, and you can decline and keep using Savi without the AI companion. We do not send your name or contact details, we do not use these messages to build an advertising profile, and we do not use them to train AI models; OpenAI processes them under its API terms. Conversations with real people never go to the AI provider. The AI companion is not a counselor and cannot provide crisis intervention; if you are in danger, use the crisis resources in the app or contact local emergency services.</p>
+  <p>When no human listener is available, Savi may offer an optional AI companion, clearly labeled as AI. <strong>Before anything is sent, we ask for your permission in the app</strong>, and you can decline and keep using the rest of Savi.</p>
+  <p>If you agree, the text you type to the AI companion, together with the earlier messages in that same AI conversation, is sent through our servers to <strong>OpenAI</strong>, a third-party AI provider, to generate a reply. We do not send your account ID, name, or contact details to OpenAI. We do not store your AI conversation on our servers, and we do not use it for advertising. OpenAI processes it under its API terms and data-usage policies, which state that data sent through its API is not used to train OpenAI&rsquo;s models by default and may be kept by OpenAI for a limited period to monitor for abuse. If your latest message contains crisis-related phrases, it is not sent to OpenAI; instead the app points you to crisis resources.</p>
+  <p>Conversations with real people are never sent to the AI provider. The AI companion is not a counselor and cannot provide crisis intervention; if you are in danger, use the crisis resources in the app or contact local emergency services.</p>
 
   <h2>6. How we use information</h2>
   <ul>
-    <li>Provide the Service — match you with listeners or chatters, run sessions, and keep your personalization.</li>
-    <li>Keep people safe and enforce our community guidelines.</li>
-    <li>Operate subscriptions and founding-member benefits.</li>
+    <li>Provide the Service &mdash; match you with listeners or chatters, run chats, deliver notes, show your profile to your match, and keep your progress and personalization.</li>
+    <li>Keep people safe, review reports, and enforce our community guidelines.</li>
+    <li>Operate Savi Plus subscriptions and in-app credits.</li>
+    <li>Send the push notifications you allow.</li>
     <li>Maintain, secure, debug, and improve the Service.</li>
-    <li>Communicate with you about the Service and respond to your requests.</li>
-    <li>Comply with legal obligations.</li>
+    <li>Respond to your requests and comply with legal obligations.</li>
   </ul>
+  <p>We do not use your information for advertising, and we do not track you across other companies&rsquo; apps or websites.</p>
 
   <h2>7. How we share information</h2>
-  <p>We do <strong>not</strong> sell your personal information. We share it only in these limited situations:</p>
+  <p>We do <strong>not</strong> sell your personal information. We share it only with the service providers that help run Savi, and in the limited situations below:</p>
   <ul>
-    <li><strong>Service providers</strong> who process data on our behalf (for example, cloud hosting, messaging delivery, and the AI companion provider) under contracts that limit their use of it.</li>
-    <li><strong>Payments</strong> through Apple and the App Store, subject to Apple&rsquo;s own privacy terms.</li>
-    <li><strong>Safety and legal</strong> — to protect people from harm, respond to lawful requests, or enforce our terms.</li>
-    <li><strong>Business transfers</strong> — if Savi is involved in a merger, acquisition, or sale of assets, with notice to you where required.</li>
+    <li><strong>Supabase</strong> &mdash; hosts our database, anonymous sign-in, and server functions.</li>
+    <li><strong>OpenAI</strong> &mdash; generates AI companion replies, only if you agree to use the AI companion (see Section 5).</li>
+    <li><strong>Apple and RevenueCat</strong> &mdash; purchases are made through Apple&rsquo;s App Store, subject to Apple&rsquo;s own privacy terms. RevenueCat processes your subscription and purchase status for us, using your anonymous account ID. Neither shares your payment-card details with us.</li>
+    <li><strong>Expo</strong> &mdash; delivers push notifications to your device using your push token (together with Apple&rsquo;s push notification service).</li>
+    <li><strong>Resend</strong> &mdash; sends report alert emails to our moderation inbox.</li>
+    <li><strong>Safety and legal</strong> &mdash; to protect people from harm, respond to lawful requests, or enforce our terms.</li>
+    <li><strong>Business transfers</strong> &mdash; if Savi is involved in a merger, acquisition, or sale of assets, with notice to you where required.</li>
   </ul>
 
   <h2>8. Data retention and deletion</h2>
-  <p>We keep information only as long as needed for the purposes above. Private notes are deleted on completion. You can delete your account at any time from within the app; when you do, we delete or de-identify your personal information within a reasonable period, except where we must retain limited records to meet legal, security, or safety obligations.</p>
+  <ul>
+    <li><strong>Chat messages:</strong> deleted from our servers when the chat ends (abandoned chats are ended automatically after about an hour).</li>
+    <li><strong>AI companion conversations:</strong> not stored on our servers.</li>
+    <li><strong>Everything else</strong> listed in Section 2 (closing notes, Circle posts and holds, ratings, reports, blocks, saved listeners, profile, credits, session records, listener status, Plus status, and push token) is kept until you delete your account, or until you remove it yourself where the app lets you (for example, deleting a Circle post).</li>
+  </ul>
+  <p><strong>Deleting your data.</strong> You can delete your account at any time in the app under <strong>Profile &rarr; Privacy &amp; security &rarr; Delete my data</strong>. This permanently and immediately deletes your account and all data linked to it on our servers &mdash; including notes, posts, ratings, reports, blocks, saved listeners, and your push token &mdash; and clears Savi&rsquo;s preferences on your device (except an under-18 block, which is kept). This cannot be undone. Deleting your data does <strong>not</strong> cancel an Apple subscription; manage or cancel it in your device&rsquo;s Settings under your Apple account. Copies that service providers keep under their own policies (for example, Apple&rsquo;s purchase records, or a report alert email already sent to our inbox) may persist for a period after deletion.</p>
 
   <h2>9. Security</h2>
-  <p>We use technical and organizational measures to protect your information, including encryption in transit, access controls, and optional in-app protections such as app lock, screenshot limits in sensitive views, and quick exit. No system is perfectly secure, but we work to protect your data and to respond promptly to any incident.</p>
+  <p>We use technical and organizational measures to protect your information, including encryption in transit, database access rules that limit each person to the data they are allowed to see, and server-side checks that a modified app cannot bypass. Chat messages are not end-to-end encrypted. No system is perfectly secure, but we work to protect your data and to respond promptly to any incident.</p>
 
   <h2>10. Your rights and choices</h2>
-  <p>Depending on where you live, you may have the right to access, correct, delete, or receive a copy of your personal information, and to object to or restrict certain processing. You can exercise many of these directly in the app (for example, editing your profile or deleting your account), or by contacting us using the details below.</p>
-  <p><strong>United Kingdom &amp; European Economic Area:</strong> our legal bases for processing are performance of our contract with you, your consent (which you can withdraw), our legitimate interests in operating and securing the Service, and compliance with legal obligations. You may lodge a complaint with your local data-protection authority.</p>
+  <p>Depending on where you live, you may have the right to access, correct, delete, or receive a copy of your personal information, and to object to or restrict certain processing. You can exercise many of these directly in the app (for example, editing your profile or deleting your data), or by contacting us using the details below. Because Savi accounts are anonymous, we may need you to make a request from inside the app, or to give us your in-app account details, so we can find the right data.</p>
+  <p><strong>United Kingdom &amp; European Economic Area:</strong> our legal bases for processing are performance of our contract with you, your consent (which you can withdraw &mdash; for example, by not using the AI companion or by turning off notifications), our legitimate interests in operating and securing the Service, and compliance with legal obligations. You may lodge a complaint with your local data-protection authority.</p>
   <p><strong>United States:</strong> we do not sell or &ldquo;share&rdquo; personal information as those terms are defined under U.S. state privacy laws, and we will not discriminate against you for exercising your rights.</p>
 
   <h2>11. Children</h2>
-  <p>Savi is intended for adults (18 and older) and is not directed to children. We do not knowingly collect personal information from anyone under 18. If you believe a minor has provided us information, please contact us so we can remove it.</p>
+  <p>Savi is intended for adults (18 and older) and is not directed to children. The app asks for your date of birth on your device and does not let anyone under 18 continue. We do not knowingly collect personal information from anyone under 18. If you believe a minor has provided us information, please contact us so we can remove it.</p>
 
   <h2>12. International users</h2>
-  <p>Savi is available in several regions, including the United States, United Kingdom, Canada, Australia, and Ireland. Your information may be processed in countries other than your own, including the United States. Where required, we use appropriate safeguards for such transfers. Crisis resources and billing are localized to your region.</p>
+  <p>Savi is available in several regions, including the United States, United Kingdom, Canada, Australia, and Ireland. Your information may be processed in countries other than your own, including the United States. Where required, we use appropriate safeguards for such transfers. Crisis resources and pricing are localized to your region.</p>
 
   <h2>13. Changes to this policy</h2>
   <p>We may update this Privacy Policy from time to time. If we make material changes, we will notify you in the app or by other reasonable means and update the &ldquo;Last updated&rdquo; date above. Your continued use of Savi after an update means you accept the revised policy.</p>
